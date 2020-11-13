@@ -10,7 +10,7 @@ If you want to perform *optional* local checks (from inside server, e.g. check f
 
 .. rubric:: Service
 
-You can install full software on your server for your project. But also you can install software and provide service to your customers.
+You can install full software on your server for your project. But also you can install software and provide service to your customers (if you are ISP or IT consulting company, web studio).
 
 .. rubric:: Team work
 
@@ -71,7 +71,7 @@ Okerr uses telegram bot for mobile interface. You can instantly check status of 
 
 .. rubric:: Free
 
-Okerr server is free and open source software distributed with [AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html) license. Client-side modules uses even more free [MIT](https://opensource.org/licenses/MIT) license.
+Okerr server is free and open source software distributed with `AGPL <https://www.gnu.org/licenses/agpl-3.0.en.html>`_ license. Client-side modules uses even more free `MIT <https://opensource.org/licenses/MIT>`_ license.
 
 .. rubric:: Low resources
 
@@ -85,7 +85,7 @@ Everything (client, libraries, server) are open-source. Interactions are based o
 
 .. rubric:: Easy to integrate
 
-If your software is in python or shell, you can use [okerrupdate](https://gitlab.com/yaroslaff/okerrupdate) library. You can use your favorite HTTP client library for any other programming language.
+If your software is in python or shell, you can use `okerrupdate <https://gitlab.com/yaroslaff/okerrupdate>`_ library. You can use your favorite HTTP client library for any other programming language.
 
 .. rubric:: Easy to extend
 
