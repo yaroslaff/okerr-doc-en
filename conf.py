@@ -47,9 +47,9 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
 #html_theme = 'nervproject'
-#html_theme = 'press'
+html_theme = 'press'
 #html_theme = 'flask'
 
 
