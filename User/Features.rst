@@ -9,12 +9,15 @@ Not required to install okerr server, you can use our [okerr server](https://oke
 If you want to perform *optional* local checks (from inside server, e.g. check free disk space) you need to install one small python package.
 
 .. rubric:: Service
+
 You can install full software on your server for your project. But also you can install software and provide service to your customers.
 
 .. rubric:: Team work
+
 It's possible to work on project alone or with other team members.
 
 .. rubric:: Network checks
+
 - SSL certificate expiration (for websites, mail servers etc.)
 - Ping (check if host is online)
 - TCP Port (check if TCP port is listening)
@@ -57,26 +60,33 @@ Among other, local checks will warn if:
 `Full list of built-in local check modules <https://gitlab.com/yaroslaff/okerrupdate/-/wikis/basic%20okerrmod%20modules>`_. 
 
 .. rubric:: Logical (Lamdba expressions)
+
 Logical indicators allows to make complex logical conditions based on basic indicators. For example:
 - Server X may go down for maintenance from 3:00 to 5:00 of night
 - We may have up to 2 servers down, if we have at least 3 servers up.
 
 .. rubric:: Telegram 
+
 Okerr uses telegram bot for mobile interface. You can instantly check status of your projects and re-test failed indicators from any location. 
 
 .. rubric:: Free
+
 Okerr server is free and open source software distributed with [AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html) license. Client-side modules uses even more free [MIT](https://opensource.org/licenses/MIT) license.
 
 .. rubric:: Low resources
+
 Client-side python module is less then 50Kb in size (requires python3 and few other requirements, most of it is already installed on typical server).
 
 Resident size (in RAM) is *ZERO*, just runs as cron job every 20 minutes.
 
 .. rubric:: Open source, open API
+
 Everything (client, libraries, server) are open-source. Interactions are based on standard protocols, so you can integrate your software with okerr, write your own okerr modules and clients. You can even update indicators right from shell with `curl`.
 
 .. rubric:: Easy to integrate
+
 If your software is in python or shell, you can use [okerrupdate](https://gitlab.com/yaroslaff/okerrupdate) library. You can use your favorite HTTP client library for any other programming language.
 
 .. rubric:: Easy to extend
+
 Client-side checks uses very simple interface and can be implemented in any programming languages.
