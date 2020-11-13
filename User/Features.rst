@@ -4,7 +4,7 @@ Features of Okerr
 
 .. rubric:: Easy to try
 
-Not required to install okerr server, you can use our [okerr server](https://okerr.com/). Even no need to register, you can use demo account.
+It's not required to install okerr server, you can use our free `okerr server <https://okerr.com>`_. Even no need to register, you can use demo account.
 
 If you want to perform *optional* local checks (from inside server, e.g. check free disk space) you need to install one small python package.
 
