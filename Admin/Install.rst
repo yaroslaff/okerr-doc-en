@@ -37,6 +37,7 @@ Step 2b (alternative: okerr sources are on host machine)
 ========================================================
 
 .. code-block:: shell
+
     # host machine
     mkdir /var/lib/lxc/okerr/rootfs/opt/okerr
 
