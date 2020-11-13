@@ -13,6 +13,7 @@ Okerr is rather big and complex project: web application (apache/uwsgi), databas
 
 Step 1 Prepare LXC container
 ============================
+
 .. code-block:: shell
 
     # host
@@ -40,6 +41,7 @@ Step 2b (alternative: okerr sources are on host machine)
     mkdir /var/lib/lxc/okerr/rootfs/opt/okerr
 
 Edit `/var/lib/lxc/okerr/config`, add mount option to config (replace path to okerr-dev repo): 
+
 .. code-block:: shell
 
     lxc.mount.entry = /home/USERNAME/repo/okerr-dev /var/lib/lxc/okerr/rootfs/opt/okerr none bind 0 0
@@ -79,7 +81,7 @@ Step 4: Post-install configuration
 ====================================
 By default, okerr configured to use host dev.okerr.com, you can set it in /etc/hosts (pointing to IP address of VM) e.g.:
 
-.. code-block:: 
+.. code-block:: none
 
     192.168.122.219 dev.okerr.com
 
@@ -87,7 +89,7 @@ or set/add other hostname in `/etc/okerr/local.d/local.conf` and `/etc/apache2/s
 
 Make sure you can send mail from this host. If needed - reconfigure postfix for this (by default it uses hostname 'okerr'). 
 
-.. code-block:: 
+.. code-block:: none
 
     myhostname = okerr  #replace to your valid hostname
 
@@ -97,7 +99,7 @@ Make sure you can send mail from this host. If needed - reconfigure postfix for 
 
 Also, you may want to set settings FROM and SERVER_EMAIL in local config (`/etc/okerr/okerr.conf`). Defaults:
 
-.. code-block:: 
+.. code-block:: none
 
     SERVER_EMAIL = 'noreply@okerr.com'
     FROM = '"okerr robot" <noreply@okerr.com>'
@@ -122,14 +124,14 @@ make sure okerr-smtpd service is enabled and running
 
 Configure postfix /etc/postfix/transport: 
 
-.. code-block:: 
+.. code-block:: none
 
     .okerr.com    smtp:localhost:10025
 
 then run: ``postmap /etc/postfix/transport``
 
 in /etc/postfix/main.cf:
-.. code-block:: 
+.. code-block:: none
 
     relay_domains = $mydestination, update.okerr.com, dev.okerr.com, localhost.okerr.com
     transport_maps = hash:/etc/postfix/transport
@@ -143,7 +145,7 @@ but should be in relay_domains (mail to these hosts should be relayed, not local
 
 format of text email
 ---------------------
-.. code-block:: 
+.. code-block:: none
 
     %%% MyIndicator.status = OK
     %%% MyIndicator.details = %HOST% SMTP test
