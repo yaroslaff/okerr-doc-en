@@ -9,7 +9,7 @@ Okerr user guide
 
 `Okerr <https://okerr.com/>`_ - lightweight monitoring software/service for small and medium projects.
 
-This is english wiki. (Есть `документация на русском языке <https://gitlab.com/yaroslaff/okerr-dev/-/wikis/ru/home>`_)
+This is english wiki. (Есть `документация на русском языке <https://okerr.readthedocs.io/ru/latest/>`_)
 
 
 .. toctree::
