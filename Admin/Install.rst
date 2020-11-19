@@ -33,8 +33,10 @@ Step 2a (recommended)
     apt install git python3
     git clone https://gitlab.com/yaroslaff/okerr-dev.git /opt/okerr
 
-Step 2b (alternative: okerr sources are on host machine)
-========================================================
+Step 2b (alternative way: okerr sources are on host machine)
+============================================================
+
+You may use this method (2b) instead of recommended (2a) but it's harder and not recommended.
 
 .. code-block:: shell
 

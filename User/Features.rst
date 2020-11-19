@@ -57,7 +57,7 @@ Among other, local checks will warn if:
 - Log files are growing fast (e.g. mailserver is hacked and used to send spam or some problem exists and error messages are logged every second)
 - Any SQL database anomaly, from db server is down and to "usually we have about 100 purchases every hour, and now just 10, probably something goes wrong".
 
-`Full list of built-in local check modules <https://gitlab.com/yaroslaff/okerrupdate/-/wikis/basic%20okerrmod%20modules>`_. 
+`Full list of built-in local check modules <https://okerrupdate.readthedocs.io/en/latest/basic-okerrmod-modules.html>`_. 
 
 .. rubric:: Logical (Lamdba expressions)
 
@@ -85,7 +85,7 @@ Everything (client, libraries, server) are open-source. Interactions are based o
 
 .. rubric:: Easy to integrate
 
-If your software is in python or shell, you can use `okerrupdate <https://gitlab.com/yaroslaff/okerrupdate>`_ library. You can use your favorite HTTP client library for any other programming language.
+If your software is in python or shell, you can use `okerrupdate <https://github.com/yaroslaff/okerrupdate>`_ library. You can use your favorite HTTP client library for any other programming language.
 
 .. rubric:: Easy to extend
 
