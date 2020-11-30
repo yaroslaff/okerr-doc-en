@@ -12,7 +12,7 @@ If you have any questions - ask in our `freshdesk <https://okerr.freshdesk.com/s
 or open an `issue <https://github.com/yaroslaff/okerr-dev/issues>`_ on github or just write me personally to my mailbox yaroslaff at gmail. 
 
 Okerr is open-source project, and okerr documentation too. Please, feel free to edit this documentation as 
-`okerr-doc-en <github.com/yaroslaff/okerr-doc-en>`_ public git project. We are not native english speakers, so 
+`okerr-doc-en <https://github.com/yaroslaff/okerr-doc-en>`_ public git project. We are not native english speakers, so 
 if you can re-write part of text in better language - please do it. 
 
 
