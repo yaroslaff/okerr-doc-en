@@ -31,7 +31,7 @@ Step 2a (recommended)
 
     # VM
     apt install git python3
-    git clone https://gitlab.com/yaroslaff/okerr-dev.git /opt/okerr
+    git clone https://gitub.com/yaroslaff/okerr-dev.git /opt/okerr
 
 Step 2b (alternative way: okerr sources are on host machine)
 ============================================================
