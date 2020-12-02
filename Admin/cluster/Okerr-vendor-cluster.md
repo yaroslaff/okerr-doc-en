@@ -1,4 +1,4 @@
-# Manage cluster of okerr servers
+# How our cluster is configured
 This is how we use okerr on our 'big' cluster. Most likely you do not need to read this page, but if you want...
 
 ## Install
