@@ -2,9 +2,29 @@
 Features of Okerr
 ##################
 
+.. rubric:: Okerr for project managers
+
+Okerr helps to reduce losses due to technical problems.
+
+- If problem is predictable (certificate or domain name will expire soon, low disk space, etc.), okerr predicts it.
+- If problem happened (server is unavailable, web page has error message, etc.), okerr detects it quickly, 
+  maybe before users will notice
+- If problem happened and was not neither predicted nor detected, you may create new indicators, covering this 
+  issue, so it will not happen second time.
+- Any suspicious anomales (todays backup file is shorter then it was before, number of new orders in database table 
+  is lower then usually) are detected. 
+- Even if problem happened, public status page will show users you already know about problem and working to fix it,
+  will show estimation when it will be fixed and can notify user when it's fixed and user can continue to work.
+
+
+.. rubric:: For programmers and sysadmins
+
+- Okerr helps to debug complex and unclean problems. It's easy to make any custom check. Okerr will run it and will notify you when problem happened and not 'went away' yet.
+- Open architecture makes easy to integrate okerr with your custom software. Simple HTTP API makes easy to manage even large number of indicators. Everything is open source as we love.
+
 .. rubric:: Easy to try
 
-It's not required to install okerr server, you can use our free `okerr server <https://okerr.com>`_. Even no need to register, you can use demo account.
+It's not required to install okerr server, you can use our free `okerr server <https://cur.okerr.com>`_. Even no need to register, you can use `demo account <https://cur.okerr.com/demologin>`_.
 
 If you want to perform *optional* local checks (from inside server, e.g. check free disk space) you need to install one small python package.
 
