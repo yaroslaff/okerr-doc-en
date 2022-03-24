@@ -113,3 +113,23 @@ sensor.py -v
 ~~~
 ./manage.py runserver
 ~~~
+
+## Configure okerr-smtpd
+`cp contrib/etc/systemd/system/okerr-smtpd.service /etc/systemd/system/`
+Edit this file and replace `%VENV%` and `%OKERR%`.
+
+`/etc/postfix/transport` :
+~~~
+.okerr.com smtp:localhost:10025
+~~~
+
+`/etc/postfix/main.cf` :
+~~~
+...
+transport_maps = hash:/etc/postfix/transport
+relay_domains = golf.okerr.com, update.okerr.com
+...
+~~~
+
+`postmap transport`
+
