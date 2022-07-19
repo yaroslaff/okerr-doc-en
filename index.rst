@@ -47,6 +47,7 @@ Okerr server admin guide
    Admin/cluster/index
    Admin/Error-codes.md
    Admin/Third-party-software-cheatsheet
+   Admin/Demo-user.md
 
 
 Developer guide
