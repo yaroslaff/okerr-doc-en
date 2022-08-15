@@ -15,8 +15,6 @@ Okerr is open-source project, and okerr documentation too. Please, feel free to 
 `okerr-doc-en <https://github.com/yaroslaff/okerr-doc-en>`_ public git project. We are not native english speakers, so 
 if you can re-write part of text in better language - please do it. 
 
-This documentation published at: https://okerr.readthedocs.io/
-
 
 Okerr user guide
 =================
