@@ -2,6 +2,8 @@
 
 Documentation for okerr in english language. (unstable, dev version)
 
+Published at: https://okerr.readthedocs.io/en/latest/
+
 ## Other okerr resources
 - [Okerr main website](https://okerr.com/)
 - [Okerr-server source code repository](https://github.com/yaroslaff/okerr-dev/) 
