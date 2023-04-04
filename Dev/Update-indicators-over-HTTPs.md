@@ -7,7 +7,7 @@ $ curl https://bravo.okerr.com/api/director/MyProject
 https://bravo.okerr.com/
 
 # update
-$ curl -d 'textid=MyProject&name=MyIndicator&secret=MySecret&status=OK' https://bravo.okerr.com/
+$ curl -d 'textid=MyProject' -d 'name=MyIndicator' -d 'secret=mysecret' -d 'status=OK' https://bravo.okerr.com/update
 OK
 ~~~
 
