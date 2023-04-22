@@ -30,7 +30,7 @@ Step 2a (recommended)
     lxc-attach -n okerr
 
     # VM
-    apt install git python3
+    apt install git python3 python3-pip
     git clone https://github.com/yaroslaff/okerr-dev.git /opt/okerr
 
 Step 2b (alternative way: okerr sources are on host machine)
@@ -75,8 +75,8 @@ Replace email in command and run:
     # All default values. user: okerr@example.com password: okerr_default_password
     ./okerr-install.py --local --email USER@EMAIL.COM
 
-    # Or explicitly
-    ./okerr-install.py --fix --apache --rmq --email USER@EMAIL.COM --pass MyPass
+    # Or explicitly (use your values)
+    ./okerr-install.py --fix --apache --rmq --email USER@EMAIL.COM --host okerr.local --pass MyPass
 
 Now, wait a little, it will install lot of debian packages, python modules, configures everything, on my notebook this takes 11 minutes.
 
